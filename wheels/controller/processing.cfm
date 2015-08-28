@@ -143,7 +143,7 @@
 			catch (any e)
 			{
 				loc.file = get("viewPath") & "/" & LCase(variables.$class.name) & "/" & LCase(arguments.action) & ".cfm";
-				if (FileExists(ExpandPath("../" & loc.file)))
+				if (FileExists(ExpandPath(application.path_prefix & loc.file)))
 				{
 					$throw(object=e);
 				}

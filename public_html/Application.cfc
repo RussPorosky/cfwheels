@@ -1,4 +1,4 @@
 <cfcomponent output="false">
-	<cfset this.path_prefix = "../">
-	<cfinclude template="#this.path_prefix#wheels/functions.cfm">
+	<cfset application.path_prefix = "../">
+	<cfinclude template="#application.path_prefix#wheels/functions.cfm">
 </cfcomponent>

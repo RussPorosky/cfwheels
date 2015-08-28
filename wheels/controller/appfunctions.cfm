@@ -7,11 +7,11 @@
 	<cfinclude template="redirection.cfm">
 	<cfinclude template="rendering.cfm">
 <cfelse>
-	<cfinclude template="#this.path_prefix#wheels/controller/caching.cfm">
-	<cfinclude template="#this.path_prefix#wheels/controller/filters.cfm">
-	<cfinclude template="#this.path_prefix#wheels/controller/flash.cfm">
-	<cfinclude template="#this.path_prefix#wheels/controller/initialization.cfm">
-	<cfinclude template="#this.path_prefix#wheels/controller/miscellaneous.cfm">
-	<cfinclude template="#this.path_prefix#wheels/controller/redirection.cfm">
-	<cfinclude template="#this.path_prefix#wheels/controller/rendering.cfm">
+	<cfinclude template="#application.path_prefix#wheels/controller/caching.cfm">
+	<cfinclude template="#application.path_prefix#wheels/controller/filters.cfm">
+	<cfinclude template="#application.path_prefix#wheels/controller/flash.cfm">
+	<cfinclude template="#application.path_prefix#wheels/controller/initialization.cfm">
+	<cfinclude template="#application.path_prefix#wheels/controller/miscellaneous.cfm">
+	<cfinclude template="#application.path_prefix#wheels/controller/redirection.cfm">
+	<cfinclude template="#application.path_prefix#wheels/controller/rendering.cfm">
 </cfif>
