@@ -4,8 +4,8 @@
 	<cfinclude template="public.cfm">
 	<cfinclude template="../../events/functions.cfm">
 <cfelse>
-	<cfinclude template="#application.path_prefix#wheels/global/cfml.cfm">
-	<cfinclude template="#application.path_prefix#wheels/global/internal.cfm">
-	<cfinclude template="#application.path_prefix#wheels/global/public.cfm">
-	<cfinclude template="#application.path_prefix#events/functions.cfm">
+	<cfinclude template="#this.path_prefix#wheels/global/cfml.cfm">
+	<cfinclude template="#this.path_prefix#wheels/global/internal.cfm">
+	<cfinclude template="#this.path_prefix#wheels/global/public.cfm">
+	<cfinclude template="#this.path_prefix#events/functions.cfm">
 </cfif>
